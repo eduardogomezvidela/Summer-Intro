@@ -1,0 +1,14 @@
+
+str_seconds = input("How many seconds?")
+
+seconds = int(str_seconds)
+
+hours = seconds//3600
+
+remaining_seconds=(seconds%3600)
+
+minutes= remaining_seconds//60
+
+final_seconds= remaining_seconds%60
+
+print(hours, "hours", minutes, "minutes", final_seconds, "seconds")
